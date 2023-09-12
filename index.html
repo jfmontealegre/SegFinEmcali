@@ -13,34 +13,7 @@
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="$VERSION">
 <title>Seguimiento Financiero EMCALI</title>
-<!-- write your code here -->
-$CENTER_STYLE
-$CREATEJS_LIBRARY_SCRIPTS
-$ANIMATE_CC_SCRIPTS
-$SCRIPT_START
-var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
-function init() {
-	canvas = document.getElementById("$CANVAS_ID");
-	anim_container = document.getElementById("$ANIM_CONTAINER_ID");
-	dom_overlay_container = document.getElementById("dom_overlay_container");
-	$CREATE_LOADER
-	$LOAD_MANIFEST
-	$PRELOAD_ASSETS
-}
-$HANDLE_FILE_LOAD_START	
-	$HANDLE_FILE_LOAD_BODY	
-$HANDLE_FILE_LOAD_END
-$HANDLE_COMPLETE_START
-	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-	$CREATE_STAGE	
-	//Registers the "tick" event listener.
-	$START_ANIMATION	    
-	//Code to support hidpi screens and responsive scaling.
-	$RESP_HIDPI	
-$HANDLE_COMPLETE_END
-$PLAYSOUND
-$SCRIPT_END
-https://app.powerbi.com/groups/me/reports/74973ace-8418-4111-ba7e-7a28b8990b42?ctid=5b677008-8ae0-45e1-99df-63737a4c14ed&pbi_source=linkShare&bookmarkGuid=45d52d6a-15d0-4564-97af-4288785e602e
+<iframe title="Seguimiento Financiero_UENE_2023" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=74973ace-8418-4111-ba7e-7a28b8990b42&autoAuth=true&ctid=5b677008-8ae0-45e1-99df-63737a4c14ed" frameborder="0" allowFullScreen="true"></iframe>
 </head>
 <body onload="init();" style="margin:0px;">
 	<div id="$ANIM_CONTAINER_ID" style="background-color:$BG; width:$WTpx; height:$HTpx">
